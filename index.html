@@ -17,6 +17,7 @@
             background-position: center;
             
             
+            
         }
         .date, .day{
             background-color: rgb(146, 222, 226);
@@ -53,6 +54,12 @@
         .complete{
             justify-content: center;
             align-items: center;
+        }
+        @media screen and(max-width:576px) {
+            .complete{
+                grid-template-columns: repeat(1,1fr);
+            }
+            
         }
     </style>
 </head>
